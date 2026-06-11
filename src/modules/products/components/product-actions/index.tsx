@@ -177,10 +177,10 @@ export default function ProductActions({
           data-testid="add-product-button"
         >
           {!selectedVariant && !options
-            ? "Select variant"
+            ? "Válassz változatot"
             : !inStock || !isValidVariant
-            ? "Out of stock"
-            : "Add to cart"}
+            ? "Jelenleg nem rendelhető!"
+            : "Kosárba"}
         </Button>
         <MobileActions
           product={product}

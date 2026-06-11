@@ -31,6 +31,11 @@ const nextConfig = {
         hostname: "localhost",
       },
       {
+        // Self-hosted product images served by Caddy from /uploads
+        protocol: "https",
+        hostname: "api.brewgear.eu",
+      },
+      {
         protocol: "https",
         hostname: "medusa-public-images.s3.eu-west-1.amazonaws.com",
       },
